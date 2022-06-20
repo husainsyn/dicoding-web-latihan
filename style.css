@@ -2,12 +2,17 @@ body {
   font-size: 100%;
 }
 
+.navbar{
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
+  margin-bottom: 3%;
+}
+
 .container {
   display: flex;
   flex-direction: column;
   background-color: aqua;
-  width: 800px;
-  height: 250px;
+  width: auto;
+  height: auto;
   background-color: #11c5c6;
   border: 2px solid black;
   padding: 10px;
