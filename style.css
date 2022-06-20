@@ -4,12 +4,13 @@ body {
 
 .container {
   display: flex;
+  flex-direction: column;
   background-color: aqua;
   width: 800px;
   height: 250px;
   background-color: #11c5c6;
   border: 2px solid black;
-  padding: 20px;
+  padding: 10px;
   border-radius: 10px;
   margin: 0 auto;
 }
@@ -17,6 +18,19 @@ body {
   flex-grow: 1;
   background-color: #fbdd1c;
   margin: 5px;
+  padding: 10px;
   border: 2px solid black;
   border-radius: 10px;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+.satu{
+  flex-grow: 1;
+}
+.dua{
+  flex-grow: 2;
+}
+.tiga{
+  flex-grow: 3;
 }
